@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Preventive app</string>
+    <string name="user">Información de usuario</string>
+    <string name="inspeccion">Inspección general</string>
+    <string name="charla">Charla de cinco minutos</string>
+    <string name="epp">Revisión de epp</string>
+    <string name="registro">Registros</string>
+    <string name="exit">Salir</string>
+
+    <string name="title_usu">Registro de usuario</string>
+    <string name="subtitle">Complete los siguientes campos:</string>
+
+    <string name="error">Error</string>
+    <string name="guardar">Guardar</string>
+    <string name="next">Siguiente</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="na">No aplica</string>
+
+    <string name="sesion">Inicio de sesión</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="dg_title">Datos generales</string>
+
+
+    <string name="ce_title">Condiciones estructurales</string>
+    <string name="ce_criterio1">Las instalaciones o superficies se encuentran húmedas o mojadas</string>
+    <string name="ce_criterio2">Las instalaciones o superficies presentan deterioro y corrosión</string>
+    <string name="ce_criterio3">Las estructuras cuentan con todas sus piezas</string>
+    <string name="ce_criterio4">Escalas , pasamanos y puntos de anclaje están deteriorados</string>
+    <string name="ce_criterio5">Los rieles de acenso se encuentran en mal estado</string>
+    <string name="ce_criterio6">La estructura están cercana a líneas eléctricas aéreas</string>
+
+    <string name="eh_title">Equipos, herramientas, otros</string>
+    <string name="eh_criterio1">Los equipos y herramientas son adecuados para realizar la tarea</string>
+    <string name="eh_criterio2">Los equipos y herramientas se encuentran en buenas condiciones</string>
+    <string name="eh_criterio3">Están identificadas y delimitadas las zonas de caída (equipos y herramientas)</string>
+    <string name="eh_criterio4">Están identificadas y delimitadas las zonas y vías de evacuación</string>
+
+
+    <string name="fa_title">Factores ambientales</string>
+    <string name="fa_criterio1">Vientos fuertes</string>
+    <string name="fa_criterio2">Precipitaciones, lloviznas, nieve</string>
+    <string name="fa_criterio3">Neblina, bruma</string>
+    <string name="fa_criterio4">Altas temperaturas</string>
+    <string name="fa_criterio5">Malas condiciones de iluminación</string>
+    <string name="fa_criterio6">Bajas temperaturas</string>
+    <string name="fa_criterio7">Ruidos fuertes</string>
+    <string name="fa_criterio8">Exposición radiación UV</string>
+    <string name="fa_criterio9">Polvos en suspensión</string>
+    <string name="fa_criterio10">El lugar de trabajo se encuentra aledaño a montículosde tierra, rocas u elementos
+         que puedan desprenderse</string>
+
+
+    <string name="et_title">Etapas de la tarea</string>
+    <string name="et_subTitle">Agregue las etapas de la tarea a realizar</string>
+
+
+    <string name="rg_title">Riesgos</string>
+    <string name="rg_subTitle">Seleccione riegos asociados a la tarea a realizar</string>
+
+
+    <string-array name="riegos_string">
+        0
+        <item>Atrapamiento entre objetos en movimiento o fijo</item>
+        1
+        <item>Caída a distinto nivel</item>
+        2
+        <item>Caída de herramientas</item>
+        3
+        <item>Caída de materiales</item>
+        4
+        <item>Caídas a mismo Nivel</item>
+        5
+        <item>Contacto con  líneas eléctricas energizadas</item>
+        6
+        <item>Contacto con electricidad</item>
+        7
+        <item>Contacto con partes filosas</item>
+        8
+        <item>Dermatitis</item>
+        9
+        <item>Derrame de Combustible</item>
+        10
+        <item>Deshidratación</item>
+        11
+        <item>Explosión</item>
+        12
+        <item>Exposición a radiación UV</item>
+        13
+        <item>Golpeado con objeto o herramienta(Trabajo en altura)</item>
+        14
+        <item>Golpeado con objeto o herramienta(Trabajo nivel de piso)</item>
+        15
+        <item>Golpes por / contra</item>
+        16
+        <item>Hipoxia</item>
+        17
+        <item>Incendio</item>
+        18
+        <item>Irritación e Mucosas</item>
+        19
+        <item>Proyección de partículas a los ojos</item>
+        20
+        <item>Quemaduras químicas</item>
+        21
+        <item>Trastornos musculo-esqueléticos (Ascenso y descenso a  estructura porta Antenas)</item>
+        22
+        <item>Trastornos musculo-esqueléticos (Ascenso Y descenso a  estructura porta Antenas (Uso de Andamios))</item>
+        23
+        <item>Trastornos musculo-esqueléticos (Izamiento de cargas)</item>
+        24
+        <item>Trastornos musculo-esqueléticos (Instalación, reemplazo y/o mantención de equipos de radio frecuencia)</item>
+        25
+        <item>Vómitos , Cefaleas</item>
+
+
+    </string-array>
+
+    <string name="medidasP_title">Medidas preventivas</string>
+
+
+    <string name="eppactivi_title">Seleccione epp a utilizar</string>
+    <string name="epp_subTitle">Seleccione los epp para esta actividad</string>
+    <string name="epp1">Casco</string>
+    <string name="epp2">Calzado de Seguridad</string>
+    <string name="epp3">Lentes de Seguridad</string>
+    <string name="epp4">Cintas de Señalización</string>
+    <string name="epp5">Guantes</string>
+    <string name="epp6">Arnés de Seguridad</string>
+    <string name="epp7">Eslingas absorbentes de Impacto</string>
+    <string name="epp8">Protector facial</string>
+    <string name="epp9">Careta de soldador</string>
+    <string name="epp10">Protección auditiva</string>
+    <string name="epp11">Protector solar</string>
+    <string name="epp12">Otros</string>
+
+    <string name="nt_title">Nómina de trabajadores</string>
+
+
+    <string name="ch_title">Temas a abordar</string>
+    <string name="ch_subTitle">Marque los temas a tratar</string>
+    <string name="ch_criterio1">Análisis de accidente.</string>
+    <string name="ch_criterio2">Difusión Procedimientos/Instructivos.</string>
+    <string name="ch_criterio3">Análisis de Riesgo de trabajo. </string>
+    <string name="ch_criterio4">Investigación de accidentes. </string>
+    <string name="ch_criterio5">Uso y manejo de extintores. </string>
+    <string name="ch_criterio6">Uso Elementos de Protección Personal</string>
+    <string name="ch_criterio7">Uso equipos y herramientas. </string>
+    <string name="ch_criterio8">Manejo manual de cargas</string>
+    <string name="ch_criterio9">Riesgos eléctricos.</string>
+    <string name="ch_criterio10">Normas de higiene y aseo.</string>
+    <string name="ch_criterio11">Superficies de trabajo.</string>
+    <string name="ch_criterio12">Riesgos específicos.</string>
+    <string name="ch_criterio13">Trabajo en altura.</string>
+    <string name="ch_criterio14">Conduccion 4x4.</string>
+    <string name="ch_criterio15">Radiacion UV.</string>
+    <string name="ch_criterio16">Otros</string>
+
+    <string name="ch_resume_title">Temas tratados </string>
+    <string name="ch_resume_sbTitle">Escriba los temas tratados en la charla </string>
+
+    <string name="ch_nomina_Title">Nómina de asistentes </string>
+
+
+    <string name="epp_title">Revisión de epp</string>
+    <string name="epp_nTrabajadores">Total trabajadores </string>
+    <string name="epp_extranjero">Trabajador extranjero</string>
+    <string name="eppBueno">Bueno</string>
+    <string name="eppRegular">Regular</string>
+    <string name="eppMalo">Malo</string>
+    <string name="eppNaplica">No aplica</string>
+
+
+    <string name="repp1">Casco de seguridad</string>
+    <string name="repp2">Barbiquejo</string>
+    <string name="repp3">Zapatos de seguridad</string>
+    <string name="repp4">Arnés de seguridad</string>
+    <string name="repp5">Estrobo de posicionamiento</string>
+    <string name="repp6">Doble cabo de vida con amortiguador de impacto</string>
+    <string name="repp7">Carro de ascenso</string>
+    <string name="repp8">Guantes dieléctricos</string>
+    <string name="repp9">Guantes tácticos</string>
+    <string name="repp10">Guantes de cabritilla</string>
+    <string name="repp11">Chaleco geólogo</string>
+    <string name="repp12">Overol de trabajo</string>
+    <string name="repp13">Gafas de seguridad</string>
+    <string name="repp14">Protector Solar</string>s
+
+    <string name="regisTitle">Registros</string>
+    <string name="finInspeccion">¡Inspeccion general completada!</string>
+
+
+    <string name="selecEppOtros">Otros epp</string>
+    <string name="subSelecEppOtros">Ingrese los epp a utilizar</string>
+
+    <string name="titleOtrosTemasCharla">Otros temas </string>
+    <string name="subOtrosTemas">Ingres otros temas a tratar en la charla </string>
+
+
+</resources>

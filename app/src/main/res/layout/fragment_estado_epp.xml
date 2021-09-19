@@ -1,0 +1,1547 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment_revision_epp.Estado_epp">
+
+
+    <ScrollView
+        android:id="@+id/scrollRevisionEpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp1"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp2"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <!-- CARDVIEW 3-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp3"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 4-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp4"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 5-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp5"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 6-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp6"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 7-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp7"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 8-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp8"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 9-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp9"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 10-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp10"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 11-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp11"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 12-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp12"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 13-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp13"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 14-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="@string/repp14"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 15-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 16-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 17-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 18-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <!-- CARDVIEW 19-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <!-- CARDVIEW 20-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 21-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 22-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- CARDVIEW 23-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <!-- CARDVIEW 24-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carview24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tvEstado24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="4dp"
+                        android:text="null"
+                        android:textSize="15.6sp" />
+
+                    <RadioGroup
+                        android:id="@+id/rgroup24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bueno"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Malo"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No aplica"
+                            android:textColor="@color/verde2"
+                            app:buttonTint="@color/verde2" />
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:id="@+id/btn_sig1"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="126dp"
+                android:text="Siguiente"
+                app:cornerRadius="100dp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="591dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

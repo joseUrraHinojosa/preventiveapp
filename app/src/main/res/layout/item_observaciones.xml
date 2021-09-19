@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/estilo_constraint">
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/verde2">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_observaciones_24"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/verde2"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="12dp"
+                android:text="Observaciones"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/mtextObs"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/estilo_texttarea"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Escriba aquí"
+            android:inputType="textMultiLine"
+            android:padding="8dp"
+            android:textSize="14sp" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/verde2"
+                android:text="Cancelar"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+            <!--    android:stateListAnimator="@null"-->
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="100dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/verde2"
+                android:text="guardar"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

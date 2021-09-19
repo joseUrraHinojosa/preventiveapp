@@ -1,0 +1,230 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment_inspeccion_general.Seleccion_epp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/verde2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_atras_dg"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:padding="6dp"
+            android:src="@drawable/abc_vector_test"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/temas_tra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/eppactivi_title"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_atras_dg"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:paddingRight="4dp"
+            android:orientation="vertical" >
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp1"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp2"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp3"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp4"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp5"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp6"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp7"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp8"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp9"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp10"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/epp11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp11"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/eppOtros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/estilo_checkbox"
+                android:layoutDirection="rtl"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/epp12"
+                android:textColor="@color/gris2"
+                app:buttonTint="@color/verde2" />
+
+            <Button
+                android:id="@+id/btn_siguiente"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="66dp"
+                android:text="@string/next"
+                app:cornerRadius="100dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="620dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
